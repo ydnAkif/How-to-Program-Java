@@ -20,6 +20,7 @@ public class Addition {
 
         System.out.print("Enter second integer: "); // prompt
         number2 = input.nextInt(); // Read second number from user
+        input.close();
 
         sum = number1 + number2; // add numbers, then store total in sum
 

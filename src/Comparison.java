@@ -17,6 +17,7 @@ public class Comparison {
 
         System.out.print("Enter second number: "); // prompt
         number2 = input.nextInt(); // read second number from user
+        input.close();
 
         if (number1 == number2)
             System.out.printf("%d == %d%n", number1, number2);
